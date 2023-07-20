@@ -45,8 +45,12 @@ function createPopup() {
     {
       name: 'Line Draw',
       func: function() {
-        var lineDraw = function (){var URL = "https://cdn.jsdelivr.net/gh/KyleCypher/owot@1.0/lineDraw.min.js";var script = document.createElement("script");script.src = URL;document.head.appendChild(script);}();
-          alert("use arrow keys to draw lines, dbl-click to make double-wide lines")
+        var lineDraw = function() {
+          var URL = "https://cdn.jsdelivr.net/gh/KyleCypher/owot@1.0/lineDraw.min.js";
+          var script = document.createElement("script");
+          script.src = URL;
+          document.head.appendChild(script);
+        }();
       }
     },
     {
@@ -63,6 +67,15 @@ function createPopup() {
         (e = document.createElement("script")).src = "https://cdn.jsdelivr.net/gh/poopman-owot/owot@v1.69.15/pointlight.js", document.head.appendChild(e);
       }
     },
+    {
+      name: 'Chat Filter',
+      func: function() {
+        var e;
+        (e = document.createElement("script")).src = "https://cdn.jsdelivr.net/gh/poopman-owot/owot-ui@latest/just-filter.js", document.head.appendChild(e);
+      }
+    },
+
+
     // Add more buttons here with their respective functions
   ];
 
