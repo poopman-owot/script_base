@@ -74,7 +74,11 @@ function createPopup() {
         (e = document.createElement("script")).src = "https://cdn.jsdelivr.net/gh/poopman-owot/owot-ui@latest/just-filter.js", document.head.appendChild(e);
       }
     },
-
+      name: 'Lilt Line',
+      func: function() {
+       var e;(e=document.createElement("script")).src="https://cdn.jsdelivr.net/gh/poopman-owot/liltline@1/app.js",document.head.appendChild(e)
+      }
+    },
 
     // Add more buttons here with their respective functions
   ];
