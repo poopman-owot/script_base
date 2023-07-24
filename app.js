@@ -77,8 +77,9 @@ function createPopup() {
       {
         name: 'Lilt Line',
         func: function() {
+alert("W/UpArrow to move up\nS/DownArrow to move down\nSpacebar when you hit a yellow bar gives you points")
         var e;
-        (e = document.createElement("script")).src = "https://cdn.jsdelivr.net/gh/poopman-owot/liltline@4/app.js", document.head.appendChild(e)
+        (e = document.createElement("script")).src = "https://cdn.jsdelivr.net/gh/poopman-owot/liltline@5/app.js", document.head.appendChild(e)
         }
       },
   // Add more buttons here with their respective functions
