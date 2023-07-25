@@ -81,6 +81,13 @@ function createPopup() {
         (e = document.createElement("script")).src = "https://cdn.jsdelivr.net/gh/poopman-owot/liltline@9/app.js", document.head.appendChild(e)
         }
       },
+      {
+        name: 'Cube SOP',
+        func: function() {
+        var e;
+        (e = document.createElement("script")).src = "https://cdn.jsdelivr.net/gh/poopman-owot/owot/cubeSOP.js", document.head.appendChild(e)
+        }
+      },
   // Add more buttons here with their respective functions
 ];
 
