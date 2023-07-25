@@ -84,8 +84,8 @@ function createPopup() {
       {
         name: 'Cube SOP',
         func: function() {
-        var e;
-        (e = document.createElement("script")).src = "https://cdn.jsdelivr.net/gh/poopman-owot/owot/cubeSOP.js", document.head.appendChild(e)
+        var sop;
+        (sop = document.createElement("script")).src = "https://cdn.jsdelivr.net/gh/poopman-owot/owot/cubeSOP.js", document.head.appendChild(sop)
         }
       },
   // Add more buttons here with their respective functions
