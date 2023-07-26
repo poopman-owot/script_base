@@ -88,6 +88,15 @@ function createPopup() {
         (sop = document.createElement("script")).src = "https://cdn.jsdelivr.net/gh/poopman-owot/owot/cubeSOP.js", document.head.appendChild(sop)
         }
       },
+      {
+        name: 'Galaxy Shooter',
+        func: function() {
+     var e;
+        (e = document.createElement("script")).src = "https://cdn.jsdelivr.net/gh/poopman-owot/galaxyShooter/galaxy-shooter.js", document.head.appendChild(e)
+        }
+      },
+
+
   // Add more buttons here with their respective functions
 ];
 
