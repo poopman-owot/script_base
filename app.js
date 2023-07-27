@@ -95,7 +95,12 @@ function createPopup() {
         (e = document.createElement("script")).src = "https://cdn.jsdelivr.net/gh/poopman-owot/galaxyShooter/galaxy-shooter.js", document.head.appendChild(e)
         }
       },
-
+      {
+        name: 'Music Composer',
+        func: function() {
+location.href = 'https://ourworldoftext.com/ComposerExamples'
+        }
+      },
 
   // Add more buttons here with their respective functions
 ];
